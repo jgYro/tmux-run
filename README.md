@@ -38,6 +38,6 @@ run-shell '/path/to/tmux-run/tmux_run.tmux'
 The first press creates a compile pane, occupying 20% of the main pane’s height. Subsequent presses focus the existing pane and present a new prompt. After the keybind is triggered, focus automatically shifts to the compile pane, Vim mode is enabled, and the view scrolls to the top of the command output. The pane persists across tmux sessions until it is manually closed.
 
 ## Known Bugs, Open to PR's
-- This is a bit hacky with no customization of default since currently it works how I'd use it.
+- This is a bit hacky with no customization of defaults since currently it is configured how I'd use it.
 - You do have to press ctrl-c twice to exit the prompt which could be improved
-- Pressing the ctrl-r keybind more than once within 0.1 seconds will cause an error (again, hacky setup)
+- Pressing the prefix-r keybind more than once within 0.1 seconds will cause an error (again, hacky setup)
