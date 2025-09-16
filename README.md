@@ -15,7 +15,7 @@ A tmux plugin that provides an Emacs-style compile function for running commands
 
 Add to `.tmux.conf`:
 ```
-set -g @plugin 'your-username/tmux-run'
+set -g @plugin 'jgYro/tmux-run'
 ```
 
 Press `prefix + I` to install.
